@@ -13,7 +13,6 @@ public class WordsDB {
     private static final String TAG = "myTag";
 
     private static WordsDBHelper mDbHelper;
-
     private static WordsDB instance=new WordsDB();
     public static WordsDB getWordsDB(){
         return WordsDB.instance;
@@ -37,7 +36,6 @@ public class WordsDB {
         String sql = "select * from words where _ID=?";
         Cursor cursor = db.rawQuery(sql, new String[]{id});
         if (cursor.moveToNext()) {
-            ;
             Words.WordDescription item = new Words.WordDescription(cursor.getString(cursor.getColumnIndex(Words.Word._ID)),
                     cursor.getString(cursor.getColumnIndex(Words.Word.COLUMN_NAME_WORD)),
                     cursor.getString(cursor.getColumnIndex(Words.Word.COLUMN_NAME_MEANING)),
