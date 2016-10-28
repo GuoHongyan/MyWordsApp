@@ -22,7 +22,11 @@
             </intent-filter>
         </activity>
         <activity android:name=".WordDetailActivity" />
-        <activity android:name=".TranslateActivity"></activity>
+        <activity android:name=".TranslateActivity" />
+        <activity
+            android:name=".EnglishWeb"
+            android:label="@string/title_activity_english_web"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

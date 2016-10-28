@@ -72,6 +72,10 @@ public class MainActivity extends AppCompatActivity implements WordItemFragment.
                 Intent intent = new Intent(MainActivity.this,TranslateActivity.class);
                 startActivity(intent);
                 return true;
+            case R.id.action_news:
+                Intent intentNews = new Intent(MainActivity.this,EnglishWeb.class);
+                startActivity(intentNews);
+                return true;
         }
         return super.onOptionsItemSelected(item);
     }

@@ -62,7 +62,6 @@ public class TranslateActivity extends AppCompatActivity {
         textView=(TextView)findViewById(R.id.id_TextView);
     }
     private void sendHttpURLConnection() {
-        //开启子线程访问网络
         new Thread(new Runnable() {
             @TargetApi(Build.VERSION_CODES.KITKAT)
             @Override
