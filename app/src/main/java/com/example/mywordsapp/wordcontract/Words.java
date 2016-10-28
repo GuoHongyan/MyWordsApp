@@ -35,7 +35,7 @@ public class Words {
         }
     }
 
-    public static final String AUTHORITY = "com.example.android.test.se.wordsprovider";//URI授权者
+    public static final String AUTHORITY = "com.example.wordsprovider";//URI授权者
 
     public Words() {
     }
