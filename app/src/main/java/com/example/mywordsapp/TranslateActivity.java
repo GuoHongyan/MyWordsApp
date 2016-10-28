@@ -109,17 +109,6 @@ public class TranslateActivity extends AppCompatActivity {
                         }
                         tvMsg+=explainStr;
                     }
-//                    else if(errorCode.equals("20")){
-//                        Toast.makeText(TranslateActivity.this,"要翻译的文本过长",Toast.LENGTH_SHORT).show();
-//                    }else if(errorCode.equals("30")){
-//                        Toast.makeText(TranslateActivity.this,"无法进行有效的翻译",Toast.LENGTH_SHORT).show();
-//                    }else if(errorCode.equals("40")){
-//                        Toast.makeText(TranslateActivity.this,"不支持的语言类型",Toast.LENGTH_SHORT).show();
-//                    }else if(errorCode.equals("50")){
-//                        Toast.makeText(TranslateActivity.this,"无效的key",Toast.LENGTH_SHORT).show();
-//                    }else if(errorCode.equals("60")){
-//                        Toast.makeText(TranslateActivity.this,"无词典结果",Toast.LENGTH_SHORT).show();
-//                    }
 
                     Message message = new Message();
                     message.what = 0;

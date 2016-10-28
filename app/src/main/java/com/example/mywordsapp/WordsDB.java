@@ -4,9 +4,7 @@ import android.content.ContentValues;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.util.Log;
-
 import com.example.mywordsapp.wordcontract.Words;
-
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
